@@ -1,0 +1,77 @@
+.container-sign-in {
+    background-color: rgb(184, 250, 247);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.login {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.login form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 24px;
+    min-height: 420px;
+    width: 450px;
+}
+
+.login h2 {
+    color: #7978D9;
+    font-weight: 500;
+    margin-bottom: 34px;
+}
+
+.login div {
+    display: flex;
+    flex-direction: column;
+}
+
+.login .btn-login {
+    all: unset;
+    margin-top: 52px;
+    cursor: pointer;
+    width: 70%;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 14px;
+    color: white;
+    background: #7978D9;
+    height: 38px;
+}
+
+.login input {
+    background-color: #FFFFFF;
+    border: 1px solid #555555;
+    border-radius: 5px;
+    height: 45px;
+    padding: 0 16px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 34px;
+    width: 300px;
+}
+
+.login label {
+    color: #555555;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 8px;
+}
